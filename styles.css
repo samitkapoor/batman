@@ -203,6 +203,7 @@ body {
     transform: rotateZ(11.6deg);
 }
 
+/* left/right-eye-fill/gap are used here to fill the remaining space after adding the outlines of the eye */
 .left-eye-fill,
 .right-eye-fill {
     height: 30px;
