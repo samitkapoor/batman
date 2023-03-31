@@ -155,15 +155,17 @@ body {
 .left-eye {
     position: absolute;
     left: 20px;
-    bottom: 150px;
+    bottom: 130px;
+
+    transform: scale(1.2);
 }
 
 .right-eye {
     position: absolute;
     right: 20px;
-    bottom: 150px;
+    bottom: 130px;
 
-    transform: rotateY(180deg);
+    transform: rotateY(180deg) scale(1.2);
 }
 
 .right-eye-top,
@@ -207,10 +209,13 @@ body {
     width: 100px;
 
     border-bottom-left-radius: 50px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 
     background-color: var(--skin-color);
 
     position: absolute;
+    top: 24px;
 }
 
 .left-eye-gap,
