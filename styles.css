@@ -10,12 +10,12 @@ body {
     align-items: center;
     justify-content: center;
 
-    background-color: yellow;
+    background-color: rgba(73, 73, 34, 0.26);
 }
 
 /* the round edged face cut of the batman */
 .face-cut {
-    height: 290px;
+    height: 250px;
     width: 300px;
 
     background-color: rgb(41, 41, 41);
@@ -49,20 +49,41 @@ body {
 .right-cheek-curve {
     transform: rotateZ(90deg);
 
-    top: 85px;
-    right: -135px;
+    top: 50px;
+    right: -126px;
 }
 
 .chin-curve {
-    width: 310px;
+    width: 300px;
 
-    left: -5px;
-    bottom: -26px;
+    left: 0px;
+    bottom: -25px;
 }
 
 .left-cheek-curve {
     transform: rotateZ(90deg);
 
-    top: 85px;
-    left: -135px;
+    top: 50px;
+    left: -125px;
+}
+
+/* ears of the batman */
+.left-ear,
+.right-ear {
+    border-right: 80px solid transparent;
+    border-left: 35px solid transparent;
+    border-bottom: 200px solid rgb(41, 41, 41);
+
+    position: absolute;
+    top: -170px;
+}
+
+.left-ear {
+    left: -20px;
+}
+
+.right-ear {
+    right: -20px;
+
+    transform: rotateY(180deg);
 }
