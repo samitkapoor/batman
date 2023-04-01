@@ -234,3 +234,38 @@ body {
     height: 16px;
     width: 15px;
 }
+
+/* the eye shapes */
+.left-eye-shape,
+.right-eye-shape {
+    height: 25px;
+    width: 50px;
+
+    background-color: rgb(231, 230, 240);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 39px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 2px solid black;
+    border-top: 4px solid black;
+
+    position: absolute;
+    top: 25px;
+    left: 25px;
+
+    transform: rotateZ(18deg);
+}
+
+.left-eye-ball,
+.right-eye-ball {
+    height: 20px;
+    width: 35px;
+    background-color: black;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    position: absolute;
+
+    left: 10px;
+}
