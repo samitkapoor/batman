@@ -19,6 +19,19 @@ body {
     background-color: rgb(228, 228, 22);
 }
 
+.title {
+    font-family: system-ui;
+    position: absolute;
+
+    font-size: 80px;
+
+    width: 100vw;
+
+    overflow: hidden;
+
+    text-align: center;
+}
+
 /* the round edged face cut of the batman */
 .face-cut {
     height: 250px;
