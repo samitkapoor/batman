@@ -5,7 +5,7 @@ Following the trend of #imadethiswithCSS, I tried to code a cartoony face of bat
 
 | Code Generated | Reference Image Used |
 |:--------------:|:--------------------:|
-<img src="https://user-images.githubusercontent.com/77121931/229309866-cba838f1-82d9-4622-bb2e-072e6b9010cf.png" height="250" width="250"/>|<img src="https://user-images.githubusercontent.com/77121931/229309920-2baa0378-c7ae-459b-b622-aa9761c4457c.jpg" height="250" width="250"/>
+<img src="https://user-images.githubusercontent.com/77121931/229309866-cba838f1-82d9-4622-bb2e-072e6b9010cf.png" height="300" width="300"/>|<img src="https://user-images.githubusercontent.com/77121931/229309920-2baa0378-c7ae-459b-b622-aa9761c4457c.jpg" height="300" width="300"/>
 
 ---
 
